@@ -13,6 +13,18 @@ The primary objective of this project is to model a structured and efficient sys
 
 ## 🏗️ Database Architecture (ER Diagram & Schema)
 
+### 1. Conceptual Design (ER Diagram)
+The high-level entity relationships and cardinalities.
+![ER Diagram](https://github.com/Toxpox/eCommerce-DBMS-Project/blob/main/Docs/ER%20Diagram.png)
+
+### 2. Logical Design (Relational Model)
+The mapping of entities to relational tables (7-Step Mapping).
+![Relational Model](https://github.com/Toxpox/eCommerce-DBMS-Project/blob/main/Docs/Relational.png)
+
+### 3. Physical Schema
+The actual database implementation view showing data types and constraints.
+![Database Schema](https://github.com/Toxpox/eCommerce-DBMS-Project/blob/main/Docs/Schema.png)
+
 The database is built upon **7 main entities**:
 
 1.  **USERS:** Stores customer and admin information.
@@ -23,7 +35,7 @@ The database is built upon **7 main entities**:
 6.  **ORDER_DETAILS:** Links products to orders, preserving historical price data (`SalePrice`).
 7.  **PAYMENTS:** Records payment transactions for orders (1:1 relationship).
 
-![ER Diagram](https://github.com/Toxpox/eCommerce-DBMS-Project/blob/main/ER%20Diagram.png?raw=true)
+
 
 ## 📊 Normalization Analysis
 The database design has been optimized for performance and data integrity:
